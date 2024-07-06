@@ -50,7 +50,7 @@ function calc(){
         }
 
         if(total == 0 ){
-            output.innerHTML += `<h2> Nenhum pedido foi feito ainda.</h2>`;
+            output.innerHTML += `<h2 class="mb-3"> Nenhum pedido foi feito ainda.</h2>`;
             
         }
             
@@ -63,7 +63,7 @@ function calc(){
         
         
     
-        output.innerHTML += `<div class="fw-bold fs-5"> Preço final: ${formatter.format(total)}</div>`;
+        output.innerHTML += `<div class="fw-bold fs-5 mt-5"> Preço final: ${formatter.format(total)}</div>`;
         console.log(output.innerHTML)
     }
     else{
