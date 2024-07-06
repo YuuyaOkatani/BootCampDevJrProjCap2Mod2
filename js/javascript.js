@@ -41,7 +41,7 @@ function calc(){
             total_prod = prods[id-1].price * parseFloat(input.value);
             total += prods[id-1].price * parseFloat(input.value);
             if(total_prod > 0.0 ){
-                output.innerHTML += `<li> Prato: ${prods[id-1].name}  - Preço unitário: ${formatter.format(prods[id-1].price)} - Quantidade: ${input.value} - Total: ${formatter.format(total_prod)} </li>`;
+                output.innerHTML += `<li class="mt-3"> Prato: ${prods[id-1].name}  - Preço unitário: ${formatter.format(prods[id-1].price)} - Quantidade: ${input.value} - Total: ${formatter.format(total_prod)} </li>`;
             }
             
             
